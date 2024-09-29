@@ -17,3 +17,5 @@ sudo apt-get install gnome-system-monitor
 sudo rm /etc/network/interfaces
 
 sudo apt install openssh-server
+
+sudo apt install gnome-tweaks

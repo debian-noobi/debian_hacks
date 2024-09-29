@@ -1,0 +1,13 @@
+Unit]
+Description=Twonky Server Service
+Wants=network-online.target
+After=network-online.target nss-lookup.target
+
+[Service]
+Type=exec
+User=alexander
+ExecStartPre=/bin/sleep 60
+ExecStart=/home/alexander/Apps/twonky/twonkyserver
+
+[Install]
+WantedBy=multi-user.target

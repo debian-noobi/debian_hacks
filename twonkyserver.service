@@ -1,4 +1,4 @@
-Unit]
+[Unit]
 Description=Twonky Server Service
 Wants=network-online.target
 After=network-online.target nss-lookup.target

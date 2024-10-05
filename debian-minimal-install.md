@@ -19,3 +19,5 @@ sudo rm /etc/network/interfaces
 sudo apt install openssh-server
 
 sudo apt install gnome-tweaks
+
+gsettings set 'org.gnome.desktop.interface' 'enable-animations' 'false'

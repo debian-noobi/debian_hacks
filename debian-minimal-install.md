@@ -21,3 +21,4 @@ sudo apt install openssh-server
 sudo apt install gnome-tweaks
 
 gsettings set 'org.gnome.desktop.interface' 'enable-animations' 'false'
+gsettings set org.gnome.desktop.wm.preferences button-layout "close:minimize,maximize"
